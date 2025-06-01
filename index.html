@@ -10,9 +10,13 @@
 
   <body>
     <h1>Cats!</h1>
-    <section id="cat-breed-1" class="cat-section"></section>
-    <section id="cat-breed-2" class="cat-section"></section>
-    <section class="cat-breed-1"></section>
+    <section id="cat-section" class="cat-section">
+      <div id="image"></div>
+      <div id="info"></div>
+      <input type="button" value="new breed" onclick="fetchBreed();" />
+      <input type="button" value="new pic" onclick="fetchImg();" />
+    </section>
+
     <script src="js/index.js"></script>
   </body>
 </html>
