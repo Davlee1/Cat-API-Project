@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html{
+    background: hsl(216 100% 87%);
+    color: hsl(216 100% 10%); 
+    text-align: center;
+    font-family: "Nunito", sans-serif;  
+}
+
+h1{
+    font-family: "Fascinate Inline", system-ui;
+}
+
+
+.cat-section{
+    
+    padding: 10px;
+    margin:auto;
+    width: 500px;
+
+}
+
+.catpic{
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
