@@ -45,6 +45,8 @@ async function fetchBreed() {
         catInfo.appendChild(name);
         catInfo.appendChild(info);
 
+
+        //updates image for new breed
         if (catImg.firstChild) {
             catImg.innerHTML = "";
         }
