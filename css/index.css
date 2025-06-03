@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 html {
-    background: hsl(216 100% 87%);
+    background: hsl(216 100% 83%);
     color: hsl(216 100% 10%);
     text-align: center;
     font-family: "Nunito", sans-serif;
@@ -27,10 +27,18 @@ h1 {
 }
 
 input {
-    background: hsl(214, 100%, 93%);
+    background: hsl(214 100% 95%);
     border-radius: 5px;
+    border-color: hsl(214 100% 10%);
     padding: 5px;
     margin: 20px;
+
+}
+
+input:active {
+    background: hsl(214 100% 90%);
+    box-shadow: 1px 1px hsl(214 100% 10%);
+    transform: translateY(4px);
 }
 
 
