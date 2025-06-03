@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cat-API-project</title>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
 
-  <body>
-    <h1>Cats!</h1>
-    <section id="cat-breed-1" class="cat-section"></section>
-    <section id="cat-breed-2" class="cat-section"></section>
-    <section class="cat-breed-1"></section>
-    <script src="js/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cat-API-project</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <h1>Cats!</h1>
+  <section id="cat-section" class="cat-section">
+    <div id="image"></div>
+    <div id="info"></div>
+    <input type="button" value="new breed" onclick="fetchBreed();" />
+    <input type="button" value="new pic" onclick="fetchImg();" />
+  </section>
+
+  <script src="js/index.js"></script>
+</body>
+
 </html>
