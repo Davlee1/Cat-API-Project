@@ -5,6 +5,7 @@ html {
     color: hsl(216 100% 10%);
     text-align: center;
     font-family: "Nunito", sans-serif;
+    font-size: 20px;
 }
 
 h1 {
@@ -30,9 +31,8 @@ input {
     background: hsl(214 100% 95%);
     border-radius: 5px;
     border-color: hsl(214 100% 10%);
-    padding: 5px;
+    padding: 10px;
     margin: 20px;
-
 }
 
 input:active {
@@ -42,9 +42,18 @@ input:active {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 500px) {
+    html {
+        font-size: 25px;
+    }
 
     .cat-section {
         width: 90%;
+    }
+
+    input {
+        padding: 15px;
+        margin: 25px;
+        font-size: 25px;
     }
 }
